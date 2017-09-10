@@ -1,0 +1,9 @@
+
+syntax = "proto2";
+
+package indexer;
+
+
+message PacketHeader {
+   required uint64 payload = 1;
+}
