@@ -18,7 +18,7 @@ AC_SUBST(PROTOBUF_VERSION)
 AC_LANG([C])
 
 CXXFLAGS="$CXXFLAGS -Wall -std=c++0x"
-LIBS="-lprotobuf $LIBS"
+LIBS="$LIBS"
 
 # ProtoBuf compiler.
 # First, specify with --with-protoc=/path/of/protoc.
